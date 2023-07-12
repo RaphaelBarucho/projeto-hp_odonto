@@ -1,0 +1,44 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esqueci o Ususário</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/esqueci-usuario.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+    </style>
+  </head>
+  
+  <body>
+    <div class="container">
+      <div class="login-form mt-5">
+        <h2 class="text-center montserrat-font">Recuperação de Usuário</h2>
+        <form id="loginForm">
+          <div class="form-group">
+            <label for="email" class="montserrat-font">Email</label>
+            <input type="email" required class="form-control" id="email" placeholder="Digite seu email para a recuperação do seu nome de usuário">
+          </div>
+          <div class="btn-submit">
+          <a href="./entrar.html"><button type="submit" class="btn btn-primary mt-3 montserrat-font">Enviar</button></a>
+          </div>
+        </form>
+      </div>
+    </div>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Função de redirecionamento após o login
+      function redirect() {
+        window.location.href = "entrar.html";
+      }
+  
+      // Evento de envio do formulário
+      document.getElementById("loginForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // Impede o envio padrão do formulário
+        redirect(); // Chama a função de redirecionamento após o login
+      });
+    </script>
+  </body>
+  
+  </html>
+  

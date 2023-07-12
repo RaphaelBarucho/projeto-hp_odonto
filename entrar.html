@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entrar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style/entrar.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="login-form mt-5">
+      <h2 class="text-center montserrat-font">Entrar</h2>
+      <form id="loginForm">
+        <div class="form-group">
+          <label for="username" class="montserrat-font">Nome de Usuário</label>
+          <input type="text" required class="form-control" id="username" placeholder="Digite seu nome de usuário">
+        </div>
+        <div class="form-group">
+          <label for="password" class="montserrat-font">Senha</label>
+          <input type="password" required class="form-control" id="password" placeholder="Digite sua senha">
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="remember">
+          <label for="remember" class="form-check-label montserrat-font">Manter Conectado</label>
+        </div>
+        <div class="forgot-links">
+          <a href="./esqueci-usuario.html" class="montserrat-font">Esqueci meu Nome de Usuário</a> | 
+          <a href="./esqueci-senha.html" class="montserrat-font">Esqueci minha Senha</a>
+        </div>
+        <a href="./pagina-principal.html"><button type="submit" class="btn btn-primary mt-3 montserrat-font">Login</button></a>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Função de redirecionamento após o login
+    function redirect() {
+      window.location.href = "pagina-principal.html";
+    }
+
+    // Evento de envio do formulário
+    document.getElementById("loginForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // Impede o envio padrão do formulário
+      redirect(); // Chama a função de redirecionamento após o login
+    });
+  </script>
+</body>
+
+</html>

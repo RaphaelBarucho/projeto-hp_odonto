@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(148, 185, 255);
+    background: linear-gradient(90deg, rgba(205, 255, 216, 1), rgba(148, 185, 255, 1));
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+.login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn-submit{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.form-control{
+    width: 455px;
+}
+.LoginForm{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,61 @@
+/* rastreamento.css */
+
+/* Aplicando a fonte Montserrat ao corpo do documento */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(90deg, rgba(148, 185, 255, 1) 12%, rgba(205, 255, 216, 1) 94%);
+  }
+  
+  /* Estilos adicionais para o rastreamento */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group input {
+    width: 70%;
+  }
+  
+  .input-group button {
+    width: 30%;
+  }
+  
+  .tracking-results {
+    margin-top: 40px;
+  }
+  
+  h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+  
+  ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+
+  .mapa {
+    display: block;
+    margin: 0 auto;
+  }
+  

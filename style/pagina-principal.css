@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(90deg, rgba(148, 185, 255, 1) 12%, rgba(205, 255, 216, 1) 94%);
+}
+
+.navbar-brand img {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.navbar-brand span {
+  color: #1488cc;
+  font-weight: bold;
+  
+}
+
+.presentation {
+  background: linear-gradient(90deg, rgba(148, 185, 255, 1) 12%, rgba(205, 255, 216, 1) 94%);
+  padding: 50px 0;
+  color: #000000;
+}
+
+.products h2 {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.btn-comprar {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-comprar:hover {
+    background-color: #0056b3;
+  }
+  
+  

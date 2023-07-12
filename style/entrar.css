@@ -1,0 +1,55 @@
+body {
+  background: rgb(148, 185, 255);
+  background: linear-gradient(90deg, rgba(205, 255, 216, 1), rgba(148, 185, 255, 1));
+  }
+  
+  .container {
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .login-form h2 {
+    font-weight: bold;
+    text-align:justify;
+  }
+  
+  .login-form .form-group {
+    margin-bottom: 20px;
+    text-align:justify;
+  }
+  
+  .login-form label {
+    font-weight: normal;
+  }
+  
+  .login-form .forgot-links {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .login-form .forgot-links a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .login-form .forgot-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .login-form button[type="submit"] {
+    width: 100%;
+  }
+.form-check-label{
+  display: flex;
+  cursor: pointer;
+}

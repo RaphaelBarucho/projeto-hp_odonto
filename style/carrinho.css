@@ -1,0 +1,39 @@
+/* carrinho.css */
+
+/* Estilo para a seção do carrinho */
+.cart {
+    padding: 40px 0;
+  }
+  
+  /* Estilo para a tabela de itens do carrinho */
+  .cart table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .cart table th,
+  .cart table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Estilo para o botão de remover item do carrinho */
+  .cart .btn-remover {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  /* Estilo para o botão de continuar comprando */
+  .cart .btn-continuar {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  /* Estilo para o botão de finalizar compra */
+  .cart .btn-finalizar {
+    background-color: #007bff;
+    color: #fff;
+  }
+  

@@ -1,0 +1,46 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Senha</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/entrar.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+    </style>
+  </head>
+  
+  <body>
+    <div class="container">
+      <div class="login-form mt-5">
+        <h2 class="text-center montserrat-font">Recuperação de Senha</h2>
+        <form id="loginForm">
+          <div class="form-group">
+            <label for="password" class="montserrat-font">Nova Senha</label>
+            <input type="password" required class="form-control" id="newpassword" placeholder="Digite sua Nova Senha">
+          </div>
+          <div class="form-group">
+            <label for="password" class="montserrat-font">Confirmação de Senha</label>
+            <input type="password" required class="form-control" id="renewpassword" placeholder="Digite novamente sua Nova Senha">
+          </div>
+          <a href="./entrar.html"><button type="submit" class="btn btn-primary mt-3 montserrat-font">Enviar</button></a>
+        </form>
+      </div>
+    </div>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Função de redirecionamento após o login
+      function redirect() {
+        window.location.href = "entrar.html";
+      }
+  
+      // Evento de envio do formulário
+      document.getElementById("loginForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // Impede o envio padrão do formulário
+        redirect(); // Chama a função de redirecionamento após o login
+      });
+    </script>
+  </body>
+  
+  </html>
+  
